@@ -21,7 +21,7 @@ To install the required libraries, use:
 pip install pywhatkit requests
 ```
 
-## Required customization
+## Usage
 
 Replace the placeholders in the script with your actual API key and group ID. Then, run the script to fetch the AQI and send the message.
 
