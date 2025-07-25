@@ -21,7 +21,7 @@ To install the required libraries, use:
 pip install pywhatkit requests
 ```
 
-## Usage
+## Required customization
 
 Replace the placeholders in the script with your actual API key and group ID. Then, run the script to fetch the AQI and send the message.
 
@@ -70,10 +70,15 @@ except Exception as e:
     print(f"An error occurred: {e}")
 ```
 
-## Notes
+## 🚀 Use Cases for Dhaka AQI WhatsApp Notifier
+This Python script automatically fetches Dhaka's AQI and broadcasts it to a WhatsApp group, providing timely environmental information.
 
-- **Timing**: The message is set to be sent a minute after the script is run.
-- **Error Handling**: The script includes basic error handling for request exceptions and other general exceptions.
+Here are its key use cases:
 
+* Public Health Awareness: Alerts communities, schools, and workplaces about air quality for health precautions and activity planning.
+* Environmental Monitoring: Provides automated AQI updates for enthusiasts and advocacy groups, aiding informal data tracking.
+* Personal & Family Safety: Delivers direct AQI alerts for personal health management and caregiver notifications.
+* Smart City & IoT Integration (Conceptual): Potential for basic integration with environmental sensors for real-time data dissemination.
+* Event Planning: Helps outdoor event organizers monitor air quality for attendee safety and adjustments.
 
-Feel free to contribute to this project by submitting issues or pull requests.
+This script offers a simple, effective solution for sharing vital air quality information via WhatsApp.
