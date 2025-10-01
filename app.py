@@ -3,9 +3,13 @@ import pywhatkit as kit
 import requests
 import os
 
-# Store sensitive data in environment variables
-api_key = os.getenv("AIRVISUAL_API_KEY", "YOUR_API_KEY_HERE")   #"72eddaac-b2c7-456f-85b1-ee850493d94b"
-group_id = os.getenv("WHATSAPP_GROUP_ID", "YOUR_GROUP_ID_HERE") #"E6wGO5tFFRcKlxO8tOHpWj"
+import os
+from dotenv import load_dotenv
+
+
+load_dotenv()
+api_key = os.getenv("AIRVISUAL_API_KEY")
+group_id = os.getenv("WHATSAPP_GROUP_ID")
 
 base_url = "https://api.airvisual.com/v2"
 endpoint = f"{base_url}/city"
