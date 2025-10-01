@@ -1,8 +1,10 @@
 # Air Quality Index (AQI) Notifier for Dhaka
 
-This project is a simplified version of a real-world script originally developed for a real estate company. The original application was used internally to raise environmental awareness among employees and to showcase the company’s commitment to sustainability in front of clients.
+A real estate company wanted a simple but meaningful way to raise awareness about air quality among their team and clients. They believed that by sharing daily updates on environmental conditions, they could both encourage healthier habits internally and highlight their commitment to sustainability externally.
 
-This open-source edition is shared as a learning resource and a practical example that can be adapted for similar awareness-driven use cases. 
+To support this idea, I created a script that automatically fetches the Air Quality Index (AQI) for Dhaka from the AirVisual API and delivers the information directly to a WhatsApp group using the pywhatkit library. Employees receive these updates daily, and the company uses it as a small but impactful step to show that they care about the environment.
+
+This repository contains a simplified version of that script — free of company-specific details — so others can learn from it and adapt it for their own awareness-driven initiatives.
 
 The program fetches the current Air Quality Index (AQI) for Dhaka, Bangladesh, using the AirVisual API, and sends the AQI information as a WhatsApp message to a specified group via the pywhatkit library.
 
