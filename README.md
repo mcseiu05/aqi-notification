@@ -1,6 +1,10 @@
 # Air Quality Index (AQI) Notifier for Dhaka
 
-This Python program fetches the current Air Quality Index (AQI) for Dhaka, Bangladesh, using the AirVisual API. It then sends the AQI information as a message to a specified WhatsApp group using the `pywhatkit` library.
+This project is a simplified version of a real-world script originally developed for a real estate company. The original application was used internally to raise environmental awareness among employees and to showcase the company’s commitment to sustainability in front of clients.
+
+This open-source edition is shared as a learning resource and a practical example that can be adapted for similar awareness-driven use cases. 
+
+The program fetches the current Air Quality Index (AQI) for Dhaka, Bangladesh, using the AirVisual API, and sends the AQI information as a WhatsApp message to a specified group via the pywhatkit library.
 
 ## Prerequisites
 
